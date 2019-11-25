@@ -11,7 +11,17 @@ Most of the function in this module as oneline anonymous functions, the input
 and output for each function are self explanitory.
 
 #### Example of Use:
-![](./doc/imgs/example.png)
+```python3
+>> L = parse_sym('27.44 m') # H
+>> C = parse_sym('891.7 p') #F, 
+
+>> r_fr = round(resonant_freq(L,C)/10**3,3)
+>> print('Resonant Frequency:\n\t fr =',r_fr,'kHz')
+
+Resonant Frequency:
+	 fr = 32.175 kHz
+
+```
 
 ## Install
 
