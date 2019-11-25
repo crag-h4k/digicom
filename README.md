@@ -10,6 +10,9 @@ used in digital signals and communications.
 Most of the function in this module as oneline anonymous functions, the input
 and output for each function are self explanitory.
 
+#### Example of Use:
+![](./doc/imgs/example.png)
+
 ## Install
 
 ##### Local
@@ -22,3 +25,4 @@ $ pip install digicom/.
 ```bash
 $ pip install digicom
 ```
+
