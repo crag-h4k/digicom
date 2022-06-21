@@ -12,7 +12,7 @@ setuptools.setup(
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     url = 'https://github.com/gut-gud-1/',
-    install_requires = ['numpy==1.17.3'], #3rd party pip packages
+    install_requires = ['numpy==1.22.0'], #3rd party pip packages
     packages = setuptools.find_packages(),
     classifiers = [
         'Programming Language :: Python :: 3',
